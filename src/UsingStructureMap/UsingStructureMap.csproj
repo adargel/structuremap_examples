@@ -42,6 +42,7 @@
       <HintPath>..\..\lib\structuremap\StructureMap.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -51,8 +52,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Example1BasicUsage\When_getting_concrete_type_with_dependencies.cs" />
+    <Compile Include="Example1BasicUsage\When_getting_configured_dependency_service_with_primitive_argument.cs" />
     <Compile Include="Example1BasicUsage\When_getting_multiple_instances_of_a_configured_service_or_dependency.cs" />
     <Compile Include="Example1BasicUsage\When_getting_named_instances_of_a_configured_service_or_dependency.cs" />
+    <Compile Include="Example2OrganizingWithRegistries\Registries\NotificationRegistry.cs" />
+    <Compile Include="Example2OrganizingWithRegistries\Registries\RepositoryRegistry.cs" />
+    <Compile Include="Example2OrganizingWithRegistries\When_configuring_structure_map_with_registries.cs" />
+    <Compile Include="Example3AutoRegistrationAndTypeScanning\When_scanning_for_all_types_of_a_given_dependency_or_service.cs" />
+    <Compile Include="Example3AutoRegistrationAndTypeScanning\When_using_default_conventions.cs" />
     <Compile Include="Fixtures\EmailNotificationService.cs" />
     <Compile Include="Fixtures\ICustomerRepository.cs" />
     <Compile Include="Fixtures\INotificationService.cs" />
@@ -61,6 +68,9 @@
     <Compile Include="Example1BasicUsage\When_getting_single_instance_of_a_configured_service_or_dependency.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StructureMapTestExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
