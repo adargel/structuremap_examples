@@ -3,7 +3,7 @@ using NUnit.Framework;
 using StructureMap;
 using UsingStructureMap.Fixtures;
 
-namespace UsingStructureMap.Example
+namespace UsingStructureMap.Example1BasicUsage
 {
     [TestFixture]
     public class When_getting_single_instance_of_a_configured_service_or_dependency

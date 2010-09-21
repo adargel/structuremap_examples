@@ -3,7 +3,7 @@ using NUnit.Framework;
 using StructureMap;
 using UsingStructureMap.Fixtures;
 
-namespace UsingStructureMap.Example
+namespace UsingStructureMap.Example1BasicUsage
 {
     public class When_getting_named_instances_of_a_configured_service_or_dependency
     {

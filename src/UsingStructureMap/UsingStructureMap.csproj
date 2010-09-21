@@ -50,14 +50,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Example 1\ When_getting_multiple_instances_of_a_configured_service_or_dependency.cs" />
-    <Compile Include="Example 1\When_getting_named_instances_of_a_configured_service_or_dependency.cs" />
+    <Compile Include="Example1BasicUsage\When_getting_multiple_instances_of_a_configured_service_or_dependency.cs" />
+    <Compile Include="Example1BasicUsage\When_getting_named_instances_of_a_configured_service_or_dependency.cs" />
     <Compile Include="Fixtures\EmailNotificationService.cs" />
     <Compile Include="Fixtures\ICustomerRepository.cs" />
     <Compile Include="Fixtures\INotificationService.cs" />
     <Compile Include="Fixtures\SqlCustomerRepository.cs" />
     <Compile Include="Fixtures\TwitterNotificationService.cs" />
-    <Compile Include="Example 1\When_getting_single_instance_of_a_configured_service_or_dependency.cs" />
+    <Compile Include="Example1BasicUsage\When_getting_single_instance_of_a_configured_service_or_dependency.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StructureMapTestExtensions.cs" />
   </ItemGroup>
