@@ -31,21 +31,5 @@ namespace UsingStructureMap.Example1BasicUsage
             ObjectFactory.GetNamedInstance<INotificationService>("Email")
                 .ShouldBeInstanceOfType<EmailNotificationService>();
         }
-
-        [Test]
-        public void It_returns_all_instances_of_notification_services_when_all_instances_are_requested()
-        {
-            var notifications = ObjectFactory.GetAllInstances<INotificationService>();
-
-            notifications.Count
-                .ShouldEqual(2);
-
-            notifications
-                .ShouldContainInstanceOfType<EmailNotificationService>();
-
-            notifications
-                .ShouldContainInstanceOfType<TwitterNotificationService>();
-        }
-
     }
 }
