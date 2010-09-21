@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Example1BasicUsage\When_getting_concrete_type_with_dependencies.cs" />
     <Compile Include="Example1BasicUsage\When_getting_multiple_instances_of_a_configured_service_or_dependency.cs" />
     <Compile Include="Example1BasicUsage\When_getting_named_instances_of_a_configured_service_or_dependency.cs" />
     <Compile Include="Fixtures\EmailNotificationService.cs" />

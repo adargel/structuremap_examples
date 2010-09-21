@@ -5,6 +5,7 @@ using UsingStructureMap.Fixtures;
 
 namespace UsingStructureMap.Example1BasicUsage
 {
+    [TestFixture]
     public class When_getting_named_instances_of_a_configured_service_or_dependency
     {
         [TestFixtureSetUp]
@@ -23,7 +24,6 @@ namespace UsingStructureMap.Example1BasicUsage
             ObjectFactory.GetNamedInstance<INotificationService>("Twitter")
                 .ShouldBeInstanceOfType<TwitterNotificationService>();
         }
-
 
         [Test]
         public void It_returns_the_email_instance_of_notification_service_when_retrieved_with_email_name()
