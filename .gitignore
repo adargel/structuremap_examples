@@ -1,0 +1,16 @@
+**/*.suo
+**/*.user
+bin
+obj
+_ReSharper*
+dist
+output
+build
+*.csproj.user
+*.resharper.user
+*.resharper
+*.suo
+*.cache
+*~
+*.swp
+mspec_reports
