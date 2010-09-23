@@ -58,7 +58,15 @@
     <Compile Include="Example2OrganizingWithRegistries\Registries\NotificationRegistry.cs" />
     <Compile Include="Example2OrganizingWithRegistries\Registries\RepositoryRegistry.cs" />
     <Compile Include="Example2OrganizingWithRegistries\When_configuring_structure_map_with_registries.cs" />
-    <Compile Include="Example3AutoRegistrationAndTypeScanning\When_auto_registering_types_with_custom_convention.cs" />
+    <Compile Include="Example4GenericTypes\Customer.cs" />
+    <Compile Include="Example4GenericTypes\Entity.cs" />
+    <Compile Include="Example4GenericTypes\IRepository.cs" />
+    <Compile Include="Example4GenericTypes\Product.cs" />
+    <Compile Include="Example4GenericTypes\SqlRepository.cs" />
+    <Compile Include="Example4GenericTypes\When_configuring_closed_generic_types.cs" />
+    <Compile Include="Example4GenericTypes\When_configuring_open_generic_types.cs" />
+    <Compile Include="Example4GenericTypes\When_scanning_for_interfaces_that_close_an_open_generic_type.cs" />
+    <Compile Include="Example5CustomConventions\When_auto_registering_types_with_custom_convention.cs" />
     <Compile Include="Example3AutoRegistrationAndTypeScanning\When_auto_registering_types_with_naming_convention.cs" />
     <Compile Include="Example3AutoRegistrationAndTypeScanning\When_scanning_for_all_types_of_a_given_dependency_or_service.cs" />
     <Compile Include="Example3AutoRegistrationAndTypeScanning\When_using_default_conventions.cs" />
